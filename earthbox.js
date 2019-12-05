@@ -12,7 +12,7 @@ Create a .env file (it must be gitignored) containing something like
 
 Then, run the migration with:
 
-  source .env && tronbox migrate --network mainnet
+  source .env && earthbox migrate --network mainnet
 
 */
       userFeePercentage: 100,
@@ -28,11 +28,12 @@ Then, run the migration with:
       network_id: "2"
     },
     development: {
-      // For trontools/quickstart docker image
-      privateKey: 'da146374a75310b9666e834ee4ad0866d6f4035967bfc76217c5a495fff9f0d0',
+      // For earthengineering/quickstart docker image
+      privateKey:
+        "da146374a75310b9666e834ee4ad0866d6f4035967bfc76217c5a495fff9f0d0",
       userFeePercentage: 50,
       feeLimit: 1e8,
-      fullHost: 'http://127.0.0.1:' + port,
+      fullHost: "http://127.0.0.1:" + port,
       network_id: "9"
     }
   }
