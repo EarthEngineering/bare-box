@@ -17,14 +17,14 @@ Then, run the migration with:
 */
       userFeePercentage: 100,
       feeLimit: 1e8,
-      fullHost: "https://api.trongrid.io",
+      fullHost: "https://www.earth.engineering",
       network_id: "1"
     },
-    shasta: {
-      privateKey: process.env.PRIVATE_KEY_SHASTA,
+    ohio: {
+      privateKey: process.env.PRIVATE_KEY_OHIO,
       userFeePercentage: 50,
       feeLimit: 1e8,
-      fullHost: "https://api.shasta.trongrid.io",
+      fullHost: "https://www.earth.engineering",
       network_id: "2"
     },
     development: {
