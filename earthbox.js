@@ -20,7 +20,7 @@ Then, run the migration with:
       fullHost: "https://api.trongrid.io",
       network_id: "1"
     },
-    shasta: {
+    ohio: {
       privateKey: process.env.PRIVATE_KEY_SHASTA,
       userFeePercentage: 50,
       feeLimit: 1e8,
