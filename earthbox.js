@@ -17,7 +17,7 @@ Then, run the migration with:
 */
       userFeePercentage: 100,
       feeLimit: 1e8,
-      fullHost: "https://api.trongrid.io",
+      fullHost: "https://www.earth.engineering",
       network_id: "1"
     },
     ohio: {
