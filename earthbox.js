@@ -24,7 +24,7 @@ Then, run the migration with:
       privateKey: process.env.PRIVATE_KEY_OHIO,
       userFeePercentage: 50,
       feeLimit: 1e8,
-      fullHost: "https://api.shasta.trongrid.io",
+      fullHost: "https://www.earth.engineering",
       network_id: "2"
     },
     development: {
