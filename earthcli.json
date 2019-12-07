@@ -1,9 +1,9 @@
 {
   "ignore": ["README.md", ".gitignore"],
   "commands": {
-    "Compile": "earthbox compile",
-    "Migrate": "earthbox migrate",
-    "Test contracts": "earthbox test"
+    "Compile": "earthcli compile",
+    "Migrate": "earthcli migrate",
+    "Test contracts": "earthcli test"
   },
   "hooks": {
     "post-unpack": "bash post-unpack.sh && rm post-unpack.sh && npm install"
